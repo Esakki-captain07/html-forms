@@ -1,0 +1,52 @@
+.row{
+    width: 80px;
+}
+
+
+input{
+    width: 100%;
+    padding: 5px;
+    border: unset;
+    outline: unset;
+}
+
+.table-wrapper{
+    margin-top: 50px;
+}
+
+.btn{
+    float: inline-end;
+    margin-right: 100px;
+}
+
+
+
+tr th{
+    text-align: center;
+}
+
+.form-check-label{
+    padding: 0 10px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .table-wrapper table th,
+    .table-wrapper table td {
+      display: block;
+      width: 100%;
+    }
+    .table-wrapper table tr {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+    }
+
+    .btn{
+        margin-top: 10px
+    }
+  }
+
+   
+    
